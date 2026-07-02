@@ -1,0 +1,17 @@
+{
+  "AppVersion": "1.0",
+  "Title": "Video Audio Visualizer Wallpaper",
+  "Desc": "A Lively Wallpaper that visualizes audio info from the current playing song.",
+  "Author": "Leonides2",
+  "Thumbnail": "thumbnail.jpg",
+  "License": "MIT",
+  "Website": "https://jzuniga.zenitlabs.dev",
+  "Contact": "jzuniga.hernandez@outlook.com",
+  "Type": 1,
+  "FileName": "index.html",
+  "Arguments": "--pause-event true  --audio --system-nowplaying",
+  "IsAbsolutePath": false,
+  "Id": null,
+  "Tags": null,
+  "Version": 4
+}

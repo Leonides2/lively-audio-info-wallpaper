@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Video Audio Visualizer Wallpaper </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video id="video" autoplay muted loop src="template2.mp4"></video>
+   
+    <div id="audio-info">
+        <div style="flex-grow: 1;">
+            <div id="audio-title" style="font-size: small;"> No playing audio </div>
+            <div id="audio-artist" style="font-size: small; font-weight: lighter;"> Waiting for audio... </div>
+        </div>
+        <img id="thumbnail" src="" alt="">
+        <canvas id="canvas" width="610" height="60"></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+{
+    "videoSelect": {
+    "type": "folderDropdown",
+    "value": "template2.mp4",
+    "text": "Video",
+    "filter": "*.mp4",
+    "folder": ""
+  },
+  "backgroundOpacity": {
+    "type": "slider",
+    "value": 1,
+    "text": "Background Opacity",
+    "min": 0,
+    "max": 1,
+    "step": 0.1
+  },
+  "blurIntensity": {
+    "type": "slider",
+    "value": 10,
+    "text": "Blur Intensity",
+    "min": 0,
+    "max": 50,
+    "step": 1
+  },
+  "backgroundColor": {
+    "type": "color",
+    "value": "#000000",
+    "text": "Background Color"
+  }
+
+
+}
